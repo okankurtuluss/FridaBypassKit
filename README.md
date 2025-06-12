@@ -12,16 +12,17 @@ Emulator Detection Bypass - Spoofs device properties to appear as real device
 Debug Detection Bypass - Prevents apps from detecting debugging tools
 
 ## Requirements
-Rooted Android device or emulator
-Frida installed on your computer
-Frida-server running on the Android device
-Python 3.x (for Frida installation)
+- Rooted Android device or emulator
+- Frida installed on your computer
+- Frida-server running on the Android device
+- Python 3.x (for Frida installation)
 
 ## 1. Install Frida on your computer:
 pip install frida-tools
 
 # 2. Download and install frida-server on Android:
 Check your device architecture
+
 adb shell getprop ro.product.cpu.abi
 
 ## Download the correct frida-server from:
@@ -29,6 +30,7 @@ https://github.com/frida/frida/releases
 
 ## Push frida-server to device
 adb push frida-server /data/local/tmp/
+
 adb shell chmod 755 /data/local/tmp/frida-server
 
 ## Run frida-server as root
@@ -37,6 +39,7 @@ adb shell su -c /data/local/tmp/frida-server &
 ## Usage
 # Basic usage:
 Spawn and hook application
+
 frida -U -f com.example.app -l fridabypasskit.js
 
 ## Tested Applications
