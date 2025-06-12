@@ -1,8 +1,4 @@
-# FridaBypassKit
-Android Universal Anti-Bypass Framework - Root, SSL Pinning, Emulator &amp; Debug Detection Bypass
-
-
-## Frida Android Bypass
+## Frida Bypass Kit
 A powerful Frida script that bypasses common Android security detections and restrictions.
 
 ## Features
