@@ -36,8 +36,8 @@ adb shell chmod 755 /data/local/tmp/frida-server
 ## Run frida-server as root
 adb shell su -c /data/local/tmp/frida-server &
 
-## Usage
-# Basic usage:
+# Usage
+
 Spawn and hook application
 
 frida -U -f com.example.app -l FridaBypassKit.js
