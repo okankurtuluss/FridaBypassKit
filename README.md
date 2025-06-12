@@ -20,7 +20,7 @@ Debug Detection Bypass - Prevents apps from detecting debugging tools
 ## 1. Install Frida on your computer:
 pip install frida-tools
 
-# 2. Download and install frida-server on Android:
+## 2. Download and install frida-server on Android:
 Check your device architecture
 
 adb shell getprop ro.product.cpu.abi
