@@ -40,7 +40,7 @@ adb shell su -c /data/local/tmp/frida-server &
 # Basic usage:
 Spawn and hook application
 
-frida -U -f com.example.app -l fridabypasskit.js
+frida -U -f com.example.app -l FridaBypassKit.js
 
 ## Tested Applications
 This script has been tested and works with many applications that implement:
