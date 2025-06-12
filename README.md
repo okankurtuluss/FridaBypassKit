@@ -2,7 +2,7 @@
 Android Universal Anti-Bypass Framework - Root, SSL Pinning, Emulator &amp; Debug Detection Bypass
 
 
-# Frida Android Bypass
+## Frida Android Bypass
 A powerful Frida script that bypasses common Android security detections and restrictions.
 
 # Features
